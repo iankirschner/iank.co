@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+  align-items: center;
+  color: #191A1A;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+  border-bottom: dotted 3px;
+}
+
+h1{
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.dot {
+  margin: 3vh;
+  font-size: 2em;
+  color: #1A1AF5;;
+  border-radius: 50%;
+  display: inline-block;
+}
