@@ -27,6 +27,14 @@ h1{
   color: #1A1AF5;;
   border-radius: 50%;
   display: inline-block;
-  animation: rotation 10s infinite linear;
+  animation: rotation 12s infinite linear;
+}
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
